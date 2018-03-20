@@ -10,7 +10,7 @@ import UIKit
 
 struct Client1Theme: ApplicationThemeProtocol {
    var backgroundTheme = UIColor.green
-   var productName = NSLocalizedString("Client1", comment: "product name")
+   var productName = NSLocalizedString("Client1", tableName: "Client1", comment: "product name")
    
    //Missing from xliff file
    var windowHeader = {

@@ -11,7 +11,7 @@ import UIKit
 struct Client2Theme: ApplicationThemeProtocol {
    
    var backgroundTheme = UIColor.orange
-   var productName = NSLocalizedString("Client2", comment: "product name")
+   var productName = NSLocalizedString("Client2", tableName: "Client2", comment: "product name")
    
    //Missing from xliff file
    var windowHeader = {
