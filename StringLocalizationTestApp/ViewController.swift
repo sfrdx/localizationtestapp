@@ -28,9 +28,9 @@ class ViewController: UIViewController {
       titleBarTitle.title = ThemeManager.current.windowHeader
       
       //plist
-      productDescription.text = ThemeManager.current.string(.productDescription)
-      copywriteCompany.text = ThemeManager.current.string(.copywriteCompany)
-      acknowledgements.text = ThemeManager.current.string(.acknowledgements)
+      productDescription.text = ThemeManager.current.productDescription
+      copywriteCompany.text =  ThemeManager.current.companyCopywrite
+      acknowledgements.text =  ThemeManager.current.acknowledgements
    }
 
    override func didReceiveMemoryWarning() {
