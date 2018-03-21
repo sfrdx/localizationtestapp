@@ -8,10 +8,12 @@
 
 import UIKit
 
+//fileprivate let bundle = Bundle(identifier: "com.sfx.Client2") ?? .main
+
 struct Client2Theme: ApplicationThemeProtocol {
    
    var backgroundTheme = UIColor.orange
-   var productName = NSLocalizedString("Client2", tableName: "Client2", comment: "product name")
+   var productName = NSLocalizedString("Client2", tableName: "Client2", bundle: Bundle(identifier: "com.sfx.Client2")!, comment: "product name")
    
    //Missing from xliff file
    var windowHeader = {

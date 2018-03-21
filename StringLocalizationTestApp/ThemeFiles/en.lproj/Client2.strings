@@ -1,0 +1,13 @@
+/* 
+  Client2.strings
+  StringLocalizationTestApp
+
+  Created by Frederixon, Sara on 3/20/18.
+  Copyright © 2018 Frederixon, Sara. All rights reserved.
+*/
+
+/* product name */
+"Client2" = "Client2";
+
+/* product discription */
+"productDiscription" = "Client 2 Product Description";

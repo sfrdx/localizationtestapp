@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F6028EB1206171B200C510F6 /* Client1Strings.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6028EB4206171B200C510F6 /* Client1Strings.plist */; };
-		F6028EB2206171B200C510F6 /* Client1Strings.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6028EB4206171B200C510F6 /* Client1Strings.plist */; };
-		F6028EB5206171B500C510F6 /* Client2Strings.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6028EB8206171B500C510F6 /* Client2Strings.plist */; };
-		F6028EB6206171B500C510F6 /* Client2Strings.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6028EB8206171B500C510F6 /* Client2Strings.plist */; };
+		F6028ECB20617A1C00C510F6 /* Client1Strings.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6028EC720617A1C00C510F6 /* Client1Strings.plist */; };
+		F6028ED620617B5A00C510F6 /* Client2Strings.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6028EC920617A1C00C510F6 /* Client2Strings.plist */; };
+		F6028ED920617C5F00C510F6 /* Client1.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6028EDB20617C5F00C510F6 /* Client1.strings */; };
+		F6028EDE20617CEE00C510F6 /* Client2.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6028EE020617CEE00C510F6 /* Client2.strings */; };
 		F684C4022061658C004A9352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F684C4012061658C004A9352 /* AppDelegate.swift */; };
 		F684C4042061658C004A9352 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F684C4032061658C004A9352 /* ViewController.swift */; };
 		F684C4092061658C004A9352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F684C4082061658C004A9352 /* Assets.xcassets */; };
@@ -28,13 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F6028EB3206171B200C510F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Client1Strings.plist; sourceTree = "<group>"; };
-		F6028EB7206171B500C510F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Client2Strings.plist; sourceTree = "<group>"; };
-		F6028EB9206171E200C510F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Client1Strings.plist; sourceTree = "<group>"; };
-		F6028EBA206171E500C510F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Client2Strings.plist; sourceTree = "<group>"; };
-		F6028EBB2061727D00C510F6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		F6028EBC2061727D00C510F6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/Client1Strings.plist; sourceTree = "<group>"; };
-		F6028EBD2061727D00C510F6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/Client2Strings.plist; sourceTree = "<group>"; };
+		F6028ED420617B4600C510F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Client1Strings.plist; sourceTree = "<group>"; };
+		F6028ED520617B4E00C510F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Client2Strings.plist; sourceTree = "<group>"; };
+		F6028EDA20617C5F00C510F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Client1.strings; sourceTree = "<group>"; };
+		F6028EDF20617CEE00C510F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Client2.strings; sourceTree = "<group>"; };
 		F684C3FE2061658C004A9352 /* Client1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Client1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F684C4012061658C004A9352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F684C4032061658C004A9352 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +41,7 @@
 		F684C41F206165E2004A9352 /* Client2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Client2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F684C420206165E2004A9352 /* Client2Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Client2Info.plist; path = /Users/s.frederixon/Projects/StringLocalizationTestApp/StringLocalizationTestApp/Client2Info.plist; sourceTree = "<absolute>"; };
 		F684C42120616601004A9352 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
-		F684C42520616A09004A9352 /* Client1Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client1Theme.swift; sourceTree = "<group>"; };
+		F684C42520616A09004A9352 /* Client1Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client1Theme.swift; sourceTree = "<group>"; };
 		F684C42720616A1D004A9352 /* Client2Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client2Theme.swift; sourceTree = "<group>"; };
 		F684C42A20616AB0004A9352 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,10 +100,12 @@
 		F684C424206169F7004A9352 /* ThemeFiles */ = {
 			isa = PBXGroup;
 			children = (
+				F6028EC720617A1C00C510F6 /* Client1Strings.plist */,
+				F6028EC920617A1C00C510F6 /* Client2Strings.plist */,
 				F684C42520616A09004A9352 /* Client1Theme.swift */,
-				F6028EB4206171B200C510F6 /* Client1Strings.plist */,
 				F684C42720616A1D004A9352 /* Client2Theme.swift */,
-				F6028EB8206171B500C510F6 /* Client2Strings.plist */,
+				F6028EDB20617C5F00C510F6 /* Client1.strings */,
+				F6028EE020617CEE00C510F6 /* Client2.strings */,
 			);
 			path = ThemeFiles;
 			sourceTree = "<group>";
@@ -174,7 +173,6 @@
 			knownRegions = (
 				en,
 				Base,
-				fr,
 			);
 			mainGroup = F684C3F52061658C004A9352;
 			productRefGroup = F684C3FF2061658C004A9352 /* Products */;
@@ -192,8 +190,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6028EB5206171B500C510F6 /* Client2Strings.plist in Resources */,
-				F6028EB1206171B200C510F6 /* Client1Strings.plist in Resources */,
+				F6028ECB20617A1C00C510F6 /* Client1Strings.plist in Resources */,
+				F6028ED920617C5F00C510F6 /* Client1.strings in Resources */,
 				F684C42B20616AB0004A9352 /* Main.storyboard in Resources */,
 				F684C40C2061658C004A9352 /* LaunchScreen.storyboard in Resources */,
 				F684C4092061658C004A9352 /* Assets.xcassets in Resources */,
@@ -204,9 +202,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6028EB6206171B500C510F6 /* Client2Strings.plist in Resources */,
-				F6028EB2206171B200C510F6 /* Client1Strings.plist in Resources */,
 				F684C42C20616AB0004A9352 /* Main.storyboard in Resources */,
+				F6028EDE20617CEE00C510F6 /* Client2.strings in Resources */,
+				F6028ED620617B5A00C510F6 /* Client2Strings.plist in Resources */,
 				F684C419206165E2004A9352 /* LaunchScreen.storyboard in Resources */,
 				F684C41A206165E2004A9352 /* Assets.xcassets in Resources */,
 			);
@@ -240,31 +238,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F6028EB4206171B200C510F6 /* Client1Strings.plist */ = {
+		F6028EC720617A1C00C510F6 /* Client1Strings.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F6028EB3206171B200C510F6 /* Base */,
-				F6028EB9206171E200C510F6 /* en */,
-				F6028EBC2061727D00C510F6 /* fr */,
+				F6028ED420617B4600C510F6 /* en */,
 			);
 			name = Client1Strings.plist;
 			sourceTree = "<group>";
 		};
-		F6028EB8206171B500C510F6 /* Client2Strings.plist */ = {
+		F6028EC920617A1C00C510F6 /* Client2Strings.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F6028EB7206171B500C510F6 /* Base */,
-				F6028EBA206171E500C510F6 /* en */,
-				F6028EBD2061727D00C510F6 /* fr */,
+				F6028ED520617B4E00C510F6 /* en */,
 			);
 			name = Client2Strings.plist;
+			sourceTree = "<group>";
+		};
+		F6028EDB20617C5F00C510F6 /* Client1.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6028EDA20617C5F00C510F6 /* en */,
+			);
+			name = Client1.strings;
+			sourceTree = "<group>";
+		};
+		F6028EE020617CEE00C510F6 /* Client2.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6028EDF20617CEE00C510F6 /* en */,
+			);
+			name = Client2.strings;
 			sourceTree = "<group>";
 		};
 		F684C40A2061658C004A9352 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F684C40B2061658C004A9352 /* Base */,
-				F6028EBB2061727D00C510F6 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -305,6 +314,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_INCREMENTAL_DISTILL = NO;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -363,7 +375,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_INCREMENTAL_DISTILL = NO;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -390,7 +405,7 @@
 				INFOPLIST_FILE = StringLocalizationTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DCLIENT1";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sfx.StringLocalizationTestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sfx.Client1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -406,7 +421,7 @@
 				INFOPLIST_FILE = StringLocalizationTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DCLIENT1";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sfx.StringLocalizationTestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sfx.Client1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,7 +437,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/StringLocalizationTestApp/Client2Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DCLIENT2";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sfx.StringLocalizationTestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sfx.Client2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -438,7 +453,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/StringLocalizationTestApp/Client2Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DCLIENT2";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sfx.StringLocalizationTestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sfx.Client2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
