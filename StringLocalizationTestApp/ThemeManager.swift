@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Localization
+import Client2Strings
+import Client1Strings
 
 final class ThemeManager {
     static let current: ApplicationThemeProtocol = {
@@ -18,13 +21,3 @@ final class ThemeManager {
     }()
 }
 
-
-protocol ApplicationThemeProtocol {
-    var backgroundTheme: UIColor { get }
-    var productName: String { get }
-    var windowHeader: String { get }
-    var productDescription: String { get }
-    var companyCopywrite: String { get }
-    var acknowledgements: String { get }
-    
-}

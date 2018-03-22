@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Localization/Localization.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Client2Strings/Client2Strings.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Client1Strings/Client1Strings.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:StringLocalizationTestApp.xcodeproj">
+   </FileRef>
+</Workspace>

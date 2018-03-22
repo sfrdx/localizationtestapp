@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="StringLocalizationTestApp/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.2" build-num="9C40b"/>
+    </header>
+    <body/>
+  </file>
+  <file original="StringLocalizationTestApp/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.2" build-num="9C40b"/>
+    </header>
+    <body>
+      <trans-unit id="4sM-pV-AyZ.text">
+        <source>Label</source>
+        <target>Label</target>
+        <note>Class = "UILabel"; text = "Label"; ObjectID = "4sM-pV-AyZ";</note>
+      </trans-unit>
+      <trans-unit id="Cc6-aS-w9A.text">
+        <source>About:</source>
+        <target>About:</target>
+        <note>Class = "UILabel"; text = "About:"; ObjectID = "Cc6-aS-w9A";</note>
+      </trans-unit>
+      <trans-unit id="Yev-ZB-Bg4.text">
+        <source>Acknowledgements</source>
+        <target>Acknowledgements</target>
+        <note>Class = "UILabel"; text = "Acknowledgements"; ObjectID = "Yev-ZB-Bg4";</note>
+      </trans-unit>
+      <trans-unit id="e2L-ip-htA.text">
+        <source>Copywrite Company</source>
+        <target>Copywrite Company</target>
+        <note>Class = "UILabel"; text = "Copywrite Company"; ObjectID = "e2L-ip-htA";</note>
+      </trans-unit>
+      <trans-unit id="k6s-vT-GgO.title">
+        <source>Title</source>
+        <target>Title</target>
+        <note>Class = "UINavigationItem"; title = "Title"; ObjectID = "k6s-vT-GgO";</note>
+      </trans-unit>
+      <trans-unit id="qCi-WU-sT3.text">
+        <source>Product Description</source>
+        <target>Product Description</target>
+        <note>Class = "UILabel"; text = "Product Description"; ObjectID = "qCi-WU-sT3";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="StringLocalizationTestApp/Client2Info.plist" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.2" build-num="9C40b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="StringLocalizationTestApp/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.2" build-num="9C40b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
