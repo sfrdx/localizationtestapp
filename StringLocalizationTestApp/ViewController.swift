@@ -31,6 +31,8 @@ class ViewController: UIViewController {
       productDescription.text = ThemeManager.current.productDescription
       copywriteCompany.text =  ThemeManager.current.companyCopywrite
       acknowledgements.text =  ThemeManager.current.acknowledgements
+      
+      NSLocalizedString("View Controller Text", comment: "Should be in general Localized String")
    }
 
    override func didReceiveMemoryWarning() {

@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+
 struct Client2Theme: ApplicationThemeProtocol {
     
     var backgroundTheme = UIColor.orange

@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A49A85A2061E59F00089FC2 /* Client1.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A49A85C2061E59F00089FC2 /* Client1.strings */; };
-		4A49A85D2061E5A200089FC2 /* Client2.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A49A85F2061E5A200089FC2 /* Client2.strings */; };
-		4A49A87C206200A300089FC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A49A87B206200A300089FC2 /* InfoPlist.strings */; };
+		F6178CA52062C00A00218C8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6178CA82062C00A00218C8E /* Main.storyboard */; };
+		F6178CA62062C00A00218C8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6178CA82062C00A00218C8E /* Main.storyboard */; };
+		F6178CAB2062C0D400218C8E /* Client2Localizer.sh in Resources */ = {isa = PBXBuildFile; fileRef = F6178CAA2062C0D000218C8E /* Client2Localizer.sh */; };
+		F6178CAC2062C0D400218C8E /* Client2Localizer.sh in Resources */ = {isa = PBXBuildFile; fileRef = F6178CAA2062C0D000218C8E /* Client2Localizer.sh */; };
 		F684C4022061658C004A9352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F684C4012061658C004A9352 /* AppDelegate.swift */; };
 		F684C4042061658C004A9352 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F684C4032061658C004A9352 /* ViewController.swift */; };
 		F684C4092061658C004A9352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F684C4082061658C004A9352 /* Assets.xcassets */; };
@@ -22,16 +23,14 @@
 		F684C42320616992004A9352 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F684C42120616601004A9352 /* ThemeManager.swift */; };
 		F684C42620616A09004A9352 /* Client1Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F684C42520616A09004A9352 /* Client1Theme.swift */; };
 		F684C42920616A1F004A9352 /* Client2Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F684C42720616A1D004A9352 /* Client2Theme.swift */; };
-		F684C42B20616AB0004A9352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F684C42A20616AB0004A9352 /* Main.storyboard */; };
-		F684C42C20616AB0004A9352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F684C42A20616AB0004A9352 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A49A8092061DAFF00089FC2 /* Client2Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Client2Info.plist; sourceTree = "<group>"; };
 		4A49A8542061E2A700089FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4A49A85B2061E59F00089FC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Client1.strings; sourceTree = "<group>"; };
-		4A49A85E2061E5A200089FC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Client2.strings; sourceTree = "<group>"; };
-		4A49A87B206200A300089FC2 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F6178CA72062C00A00218C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6178CA92062C0B200218C8E /* Client1Localizer.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Client1Localizer.sh; sourceTree = "<group>"; };
+		F6178CAA2062C0D000218C8E /* Client2Localizer.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Client2Localizer.sh; sourceTree = "<group>"; };
 		F684C3FE2061658C004A9352 /* Client1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Client1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F684C4012061658C004A9352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F684C4032061658C004A9352 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,7 +40,6 @@
 		F684C42120616601004A9352 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		F684C42520616A09004A9352 /* Client1Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client1Theme.swift; sourceTree = "<group>"; };
 		F684C42720616A1D004A9352 /* Client2Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client2Theme.swift; sourceTree = "<group>"; };
-		F684C42A20616AB0004A9352 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F682AFBF20642646004F81E8 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				F6178CA92062C0B200218C8E /* Client1Localizer.sh */,
+				F6178CAA2062C0D000218C8E /* Client2Localizer.sh */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
 		F684C3F52061658C004A9352 = {
 			isa = PBXGroup;
 			children = (
@@ -82,12 +89,12 @@
 		F684C4002061658C004A9352 /* StringLocalizationTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				4A49A87B206200A300089FC2 /* InfoPlist.strings */,
+				F682AFBF20642646004F81E8 /* Scripts */,
 				F684C40D2061658C004A9352 /* Info.plist */,
 				4A49A8092061DAFF00089FC2 /* Client2Info.plist */,
 				F684C4012061658C004A9352 /* AppDelegate.swift */,
 				F684C4032061658C004A9352 /* ViewController.swift */,
-				F684C42A20616AB0004A9352 /* Main.storyboard */,
+				F6178CA82062C00A00218C8E /* Main.storyboard */,
 				F684C4082061658C004A9352 /* Assets.xcassets */,
 				F684C40A2061658C004A9352 /* LaunchScreen.storyboard */,
 				F684C42120616601004A9352 /* ThemeManager.swift */,
@@ -99,8 +106,6 @@
 		F684C424206169F7004A9352 /* ThemeFiles */ = {
 			isa = PBXGroup;
 			children = (
-				4A49A85C2061E59F00089FC2 /* Client1.strings */,
-				4A49A85F2061E5A200089FC2 /* Client2.strings */,
 				F684C42520616A09004A9352 /* Client1Theme.swift */,
 				F684C42720616A1D004A9352 /* Client2Theme.swift */,
 			);
@@ -187,11 +192,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F684C42B20616AB0004A9352 /* Main.storyboard in Resources */,
+				F6178CA52062C00A00218C8E /* Main.storyboard in Resources */,
 				F684C40C2061658C004A9352 /* LaunchScreen.storyboard in Resources */,
+				F6178CAC2062C0D400218C8E /* Client2Localizer.sh in Resources */,
 				F684C4092061658C004A9352 /* Assets.xcassets in Resources */,
-				4A49A85A2061E59F00089FC2 /* Client1.strings in Resources */,
-				4A49A87C206200A300089FC2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,9 +203,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F684C42C20616AB0004A9352 /* Main.storyboard in Resources */,
-				4A49A85D2061E5A200089FC2 /* Client2.strings in Resources */,
+				F6178CA62062C00A00218C8E /* Main.storyboard in Resources */,
 				F684C419206165E2004A9352 /* LaunchScreen.storyboard in Resources */,
+				F6178CAB2062C0D400218C8E /* Client2Localizer.sh in Resources */,
 				F684C41A206165E2004A9352 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,20 +238,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4A49A85C2061E59F00089FC2 /* Client1.strings */ = {
+		F6178CA82062C00A00218C8E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4A49A85B2061E59F00089FC2 /* en */,
+				F6178CA72062C00A00218C8E /* Base */,
 			);
-			name = Client1.strings;
-			sourceTree = "<group>";
-		};
-		4A49A85F2061E5A200089FC2 /* Client2.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A49A85E2061E5A200089FC2 /* en */,
-			);
-			name = Client2.strings;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		F684C40A2061658C004A9352 /* LaunchScreen.storyboard */ = {
