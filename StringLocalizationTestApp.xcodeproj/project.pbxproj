@@ -11,6 +11,10 @@
 		F6178CA62062C00A00218C8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6178CA82062C00A00218C8E /* Main.storyboard */; };
 		F6178CAB2062C0D400218C8E /* Client2Localizer.sh in Resources */ = {isa = PBXBuildFile; fileRef = F6178CAA2062C0D000218C8E /* Client2Localizer.sh */; };
 		F6178CAC2062C0D400218C8E /* Client2Localizer.sh in Resources */ = {isa = PBXBuildFile; fileRef = F6178CAA2062C0D000218C8E /* Client2Localizer.sh */; };
+		F619FE50206940B10078EB7F /* Client1.strings in Resources */ = {isa = PBXBuildFile; fileRef = F619FE52206940B10078EB7F /* Client1.strings */; };
+		F619FE53206940B80078EB7F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F619FE55206940B80078EB7F /* Localizable.strings */; };
+		F619FE56206940BF0078EB7F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F619FE4B2069409D0078EB7F /* Localizable.strings */; };
+		F619FE57206940C20078EB7F /* Client2.strings in Resources */ = {isa = PBXBuildFile; fileRef = F619FE48206940980078EB7F /* Client2.strings */; };
 		F684C4022061658C004A9352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F684C4012061658C004A9352 /* AppDelegate.swift */; };
 		F684C4042061658C004A9352 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F684C4032061658C004A9352 /* ViewController.swift */; };
 		F684C4092061658C004A9352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F684C4082061658C004A9352 /* Assets.xcassets */; };
@@ -31,6 +35,10 @@
 		F6178CA72062C00A00218C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6178CA92062C0B200218C8E /* Client1Localizer.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Client1Localizer.sh; sourceTree = "<group>"; };
 		F6178CAA2062C0D000218C8E /* Client2Localizer.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Client2Localizer.sh; sourceTree = "<group>"; };
+		F619FE47206940980078EB7F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Client2.strings; sourceTree = "<group>"; };
+		F619FE4A2069409D0078EB7F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F619FE51206940B10078EB7F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Client1.strings; sourceTree = "<group>"; };
+		F619FE54206940B80078EB7F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F684C3FE2061658C004A9352 /* Client1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Client1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F684C4012061658C004A9352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F684C4032061658C004A9352 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +68,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F60E88652069333D004396AC /* Client1Strings */ = {
+			isa = PBXGroup;
+			children = (
+				F619FE52206940B10078EB7F /* Client1.strings */,
+				F619FE55206940B80078EB7F /* Localizable.strings */,
+			);
+			path = Client1Strings;
+			sourceTree = "<group>";
+		};
+		F60E886620693348004396AC /* Client2Strings */ = {
+			isa = PBXGroup;
+			children = (
+				F619FE48206940980078EB7F /* Client2.strings */,
+				F619FE4B2069409D0078EB7F /* Localizable.strings */,
+			);
+			path = Client2Strings;
+			sourceTree = "<group>";
+		};
 		F682AFBF20642646004F81E8 /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +115,8 @@
 		F684C4002061658C004A9352 /* StringLocalizationTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				F60E88652069333D004396AC /* Client1Strings */,
+				F60E886620693348004396AC /* Client2Strings */,
 				F682AFBF20642646004F81E8 /* Scripts */,
 				F684C40D2061658C004A9352 /* Info.plist */,
 				4A49A8092061DAFF00089FC2 /* Client2Info.plist */,
@@ -175,6 +203,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = F684C3F52061658C004A9352;
 			productRefGroup = F684C3FF2061658C004A9352 /* Products */;
@@ -195,7 +224,9 @@
 				F6178CA52062C00A00218C8E /* Main.storyboard in Resources */,
 				F684C40C2061658C004A9352 /* LaunchScreen.storyboard in Resources */,
 				F6178CAC2062C0D400218C8E /* Client2Localizer.sh in Resources */,
+				F619FE53206940B80078EB7F /* Localizable.strings in Resources */,
 				F684C4092061658C004A9352 /* Assets.xcassets in Resources */,
+				F619FE50206940B10078EB7F /* Client1.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,9 +234,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F619FE56206940BF0078EB7F /* Localizable.strings in Resources */,
 				F6178CA62062C00A00218C8E /* Main.storyboard in Resources */,
 				F684C419206165E2004A9352 /* LaunchScreen.storyboard in Resources */,
 				F6178CAB2062C0D400218C8E /* Client2Localizer.sh in Resources */,
+				F619FE57206940C20078EB7F /* Client2.strings in Resources */,
 				F684C41A206165E2004A9352 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +278,42 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+		};
+		F619FE48206940980078EB7F /* Client2.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F619FE47206940980078EB7F /* fr */,
+			);
+			name = Client2.strings;
+			path = StringLocalizationTestApp/Client2Localization;
+			sourceTree = SOURCE_ROOT;
+		};
+		F619FE4B2069409D0078EB7F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F619FE4A2069409D0078EB7F /* fr */,
+			);
+			name = Localizable.strings;
+			path = StringLocalizationTestApp/Client2Localization;
+			sourceTree = SOURCE_ROOT;
+		};
+		F619FE52206940B10078EB7F /* Client1.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F619FE51206940B10078EB7F /* fr */,
+			);
+			name = Client1.strings;
+			path = StringLocalizationTestApp/Client1Localization;
+			sourceTree = SOURCE_ROOT;
+		};
+		F619FE55206940B80078EB7F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F619FE54206940B80078EB7F /* fr */,
+			);
+			name = Localizable.strings;
+			path = StringLocalizationTestApp/Client1Localization;
+			sourceTree = SOURCE_ROOT;
 		};
 		F684C40A2061658C004A9352 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;

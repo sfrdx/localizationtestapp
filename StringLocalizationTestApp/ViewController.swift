@@ -16,6 +16,8 @@ class ViewController: UIViewController {
    @IBOutlet weak var copywriteCompany: UILabel!
    @IBOutlet weak var acknowledgements: UILabel!
    
+   @IBOutlet weak var aboutLabel: UILabel!
+   
    override func viewDidLoad() {
       super.viewDidLoad()
       
@@ -32,7 +34,8 @@ class ViewController: UIViewController {
       copywriteCompany.text =  ThemeManager.current.companyCopywrite
       acknowledgements.text =  ThemeManager.current.acknowledgements
       
-      NSLocalizedString("View Controller Text", comment: "Should be in general Localized String")
+      aboutLabel.text = NSLocalizedString("About", comment: "About Label")
+      
    }
 
    override func didReceiveMemoryWarning() {

@@ -74,6 +74,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="aboutLabel" destination="Cc6-aS-w9A" id="eKU-Gc-yXw"/>
                         <outlet property="acknowledgements" destination="Yev-ZB-Bg4" id="Hmd-RB-ll3"/>
                         <outlet property="copywriteCompany" destination="e2L-ip-htA" id="oqw-2v-9K9"/>
                         <outlet property="productDescription" destination="qCi-WU-sT3" id="eyj-tm-IGb"/>
